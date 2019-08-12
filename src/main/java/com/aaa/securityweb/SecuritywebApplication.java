@@ -18,11 +18,7 @@ public class SecuritywebApplication {
      * @param
      * @return
      */
-<<<<<<< HEAD
     @Bean
-=======
-   @Bean
->>>>>>> 06d42194e77c387de474867c9d1ccc7c12f3582e
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
